@@ -10,6 +10,6 @@ soup = BeautifulSoup(html, 'html.parser') #xml파서 등도 있음
 
 print('test test ')
 
-bookservices = soup.select('.fig-z0an5g')
+bookservices = soup.select('.fig-rs5q24')
 for no, book in enumerate(bookservices, 1):  #순회돌면서 넘버링해서 출력
     print(no, book.text.strip()) #strip은 trim
