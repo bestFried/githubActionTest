@@ -2,7 +2,7 @@ name: helloGithubAction
 
 on: 
   #[pust, pull_request] 등 과 같이 단일or다중 이벤트도 처리 가능
-  #해당 이벤트 발생 시 아래 jobs 실행
+  #해당 이벤트 발생 시 아래 jobs 실행 
   schedule:
     - cron: "*/10 * * * *"
 
